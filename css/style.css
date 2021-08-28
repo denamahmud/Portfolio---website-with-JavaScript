@@ -1,0 +1,455 @@
+/********** Start General *********/
+html {
+  scroll-behavior: smooth;
+}
+
+.title, .header .header-content-one .logo-style, .header .header-content-one ul li a, .header .header-content-two .bio h5 span {
+  background-image: url("../images/Screenshot_5.png");
+  background-position: right;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.title-line {
+  display: block;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #f0dc85;
+  width: 60px;
+}
+.padding-top{
+  padding-top: 100px;
+}
+/********** End General *********/
+/********** Start Body **********/
+.body {
+  background-color: linear-gradient(to right, #f3f3f3, white);
+}
+
+/********** End Body **********/
+/******** Start Header **********/
+.header .header-content-one {
+  margin-top: 30px;
+}
+
+.header .header-content-one .logo-style {
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 2.6;
+}
+.header .header-content-one .style-toggle{
+
+  color: #db5050;
+}
+.header .header-content-one ul li {
+  margin: 30px 0;
+  list-style: none;
+}
+
+.header .header-content-one ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.header .header-content-two {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 120px;
+  height: auto;
+}
+
+.header .header-content-two .bio {
+  padding-top: 100px;
+  line-height: 1.5;
+}
+
+.header .header-content-two .bio h5 {
+  color: #a7a7a7;
+  font-size: 3rem;
+  letter-spacing: 6px;
+}
+
+.header .header-content-two .bio p {
+  letter-spacing: 8.5px;
+  color: #a7a7a7;
+  font-size: 1.5rem;
+  margin: 25px 0;
+}
+
+.header .header-content-two .bio .img-personal {
+  width: 100%;
+  height: 100%;
+}
+
+.header .header-content-two .bio .img-personal img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.header .header-content-two .change-background-color {
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 70px;
+  position: relative;
+  color: #a7a7a7;
+}
+
+.header .header-content-two .change-background-color .white {
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+  left: 44%;
+  -webkit-animation: animateDarkMode .7s linear;
+          animation: animateDarkMode .7s linear;
+}
+
+.header .header-content-two .change-background-color .black {
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+  left: 44%;
+  -webkit-animation: animateDarkMode .7s linear;
+          animation: animateDarkMode .7s linear;
+}
+
+@-webkit-keyframes animateDarkMode {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animateDarkMode {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header .header-content-two .cv-scroll-container {
+  margin-top: 130px;
+}
+
+.header .header-content-two .cv-scroll-container .div-cv-download {
+  margin-bottom: 20px;
+}
+
+.header .header-content-two .cv-scroll-container .div-cv-download .button-cv-download {
+  background: -webkit-gradient(linear, right top, left top, from(#D74177), to(#FFE98A));
+  background: linear-gradient(to left, #D74177, #FFE98A);
+  color: #ffffff;
+  width: 170px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  font-size: 2rem;
+}
+
+.header .header-content-two .scroll-bottom {
+  background: none;
+  width: 50px;
+  margin: 0 auto;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  color: #a7a7a7;
+  border: 5px solid #a7a7a7;
+  -webkit-animation: animate1 .7s ease-in-out infinite;
+          animation: animate1 .7s ease-in-out infinite;
+}
+
+@-webkit-keyframes animate1 {
+  from {
+    line-height: 1.7;
+  }
+  to {
+    line-height: 2.7;
+  }
+}
+
+@keyframes animate1 {
+  from {
+    line-height: 1.7;
+  }
+  to {
+    line-height: 2.7;
+  }
+}
+
+.line-header {
+  border-bottom: 2px solid #a7a7a7;
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+}
+
+/******** End Header **********/
+/******** Start About *********/
+
+
+.about .about-content-one {
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.about .about-content-one h4 {
+  margin-bottom: 40px;
+  color: #a7a7a7;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.about .about-content-one p {
+  color: #a7a7a7;
+  width: 70%;
+  text-align: justify;
+}
+
+.about .about-content-two {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.about .about-content-two img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+/******** End About *********/
+/******** Start Skills ***********/
+.skills {
+  height: auto;
+}
+
+.skills .skills-content-one {
+  padding: 40px 0;
+  color: #a7a7a7;
+  font-size: 3rem;
+}
+
+.skills .skills-content-two {
+  padding: 50px 0;
+}
+
+.skills .skills-content-two .margin-bottom {
+  margin-bottom: 40px;
+}
+
+/******** End Skills ***********/
+/******** Start Counter **********/
+.counter {
+  background-image: url("../images/tour-city.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.counter .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.counter .counter-content {
+  color: #fff;
+  font-size: 3rem;
+}
+
+/******** End Counter **********/
+/******** Start Project ********/
+
+
+.projects .buttons-filter {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.projects .buttons-filter .btn-project {
+  background: -webkit-gradient(linear, right top, left top, from(#D74177), to(#FFE98A));
+  background: linear-gradient(to left, #D74177, #FFE98A);
+  width: 120px;
+  height: 40px;
+  border: none;
+  margin: 5px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.projects .active {
+  background: #db5050 !important;
+}
+
+.projects .project-img {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.projects .project-img img {
+  width: 80%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  cursor: pointer;
+  -webkit-transition: .7s transform;
+  transition: .7s transform;
+  border-radius: 10px;
+  border: 3px inset #db5050;
+  -webkit-transition: .7s all;
+  transition: .7s all;
+}
+
+.projects .project-img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.projects .show {
+  display: block;
+  -webkit-animation: animateShow .7s ease-in-out;
+          animation: animateShow .7s ease-in-out;
+}
+
+@-webkit-keyframes animateShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animateShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.projects .hide {
+  display: none;
+}
+
+/******** End Project ********/
+/******** Start Clients **********/
+
+
+.clients .clients-container {
+  background: linear-gradient(to left, #D74177, #FFE98A);
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  width: 70%;
+  height: auto;
+  margin: 50px auto;
+}
+
+.clients .clients-container .img {
+  width: 100%;
+  height: 60vh;
+  border: none;
+  border-radius: 20px;
+}
+
+.clients .clients-container .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.clients .clients-container .content-clients {
+  text-align: center;
+  margin: 20px 0 120px 0;
+  line-height: 1.5;
+}
+
+.clients .clients-container .content-clients p,
+.clients .clients-container .content-clients h3
+{
+  color: #f8f8f8
+}
+/******** End Clients **********/
+/******** Start Footer **********/
+.footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(167, 167, 167);
+}
+.footer .social-media{
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  margin: 0 auto;
+}
+.footer .social-media a{
+  color: rgb(167, 167, 167);
+}
+/******** End Footer **********/
+/******** Start Scroll Top **********/
+.scroll-top {
+  background: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2.2;
+  font-size: 20px;
+  cursor: pointer;
+  color: #a7a7a7;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  border: 5px solid #a7a7a7;
+  display: none;
+  -webkit-animation: animate2 .7s ease-in-out;
+          animation: animate2 .7s ease-in-out;
+}
+
+@-webkit-keyframes animate2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animate2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/******** End Scroll Top **********/
+/*# sourceMappingURL=style.css.map */

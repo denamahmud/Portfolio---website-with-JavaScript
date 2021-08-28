@@ -1,0 +1,35 @@
+$color-orange-linear :linear-gradient(to left, #D74177, #FFE98A);
+$background-colorDark : linear-gradient(to right, #111, #444);
+$background-colorWhite : linear-gradient(to right, rgb(243, 243, 243), rgb(255, 255, 255));
+$color-white1 : rgb(167, 167, 167);
+$color-white2 : #f8f8f8;
+$color-white3 : #ffffff;
+
+html{
+    scroll-behavior: smooth;
+}
+
+%color-image{
+    background-image: url('../images/Screenshot_5.png');
+    background-position: right;
+    background-size:cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.title{
+    @extend %color-image;
+    font-size: 5rem;
+    
+}
+.title-line{
+
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 3px solid $color-red;
+    width: 60px;
+    
+}
+.padding-top{
+    padding-top: 100px;
+}
